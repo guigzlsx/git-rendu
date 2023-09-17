@@ -125,6 +125,50 @@ p {
   border-radius: 40px ;
 }
 
+.bottom h2{
+  text-decoration: underline;
+  
+}
+
+.pp-box{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+
+.pp-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+}
+
+.pp-img:hover{
+  border-right: solid 5px rgb(0, 0, 0);
+  border-left: solid 5px rgb(0, 0, 0);
+}
+
+.box-titre{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pp-titre{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.txt-intro{
+  margin: 5px 10px;
+  font-size: smaller;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
 
   .nav-ordi{
