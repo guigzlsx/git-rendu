@@ -115,6 +115,16 @@ p {
   animation: rainbow 3s linear infinite;
 }
 
+.bottom{
+  float: right;
+  margin: 0px 20px;
+  width: 80%;
+  padding: 1px 20px;
+  color: #f2f2f2;
+  background-color: #6c3402;
+  border-radius: 40px ;
+}
+
 @media (max-width: 768px) {
 
   .nav-ordi{
