@@ -26,7 +26,8 @@ body {
   font-size: 30px;
   color: aliceblue;
   background-color: #ff7700;
-  border-radius: 5px;
+  margin: 20px;
+  border-radius: 5px; 
   /* margin-right: 30px;
   margin-top: ; */
 }
@@ -77,6 +78,11 @@ transition: 0.5s;
 h1 {
   font-size: 24px;
   margin: 0;
+
+}
+
+.nav-tablette{
+  display: none;
 }
 
 p {
@@ -109,3 +115,17 @@ p {
   animation: rainbow 3s linear infinite;
 }
 
+@media (max-width: 768px) {
+
+  .nav-ordi{
+    display: none;
+  }
+
+  .nav-tablette{
+    display: flex;
+  }
+
+  ul{
+    order: 1;
+  }
+}
