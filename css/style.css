@@ -198,6 +198,30 @@ p {
   font-style: italic;
 }
 
+@media only screen and (max-width: 1270px) {
+
+  .pp-box{
+    flex-wrap: nowrap;
+  }
+
+  .guibla-box:hover{
+    flex-direction: column;
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .pp-box{
+    flex-wrap: wrap;
+  }
+
+  .guibla-box:hover{
+    flex-direction: row;
+    width: 600px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -213,3 +237,4 @@ p {
     order: 1;
   }
 }
+
